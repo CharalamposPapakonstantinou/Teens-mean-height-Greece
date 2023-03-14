@@ -133,10 +133,3 @@ with col2:
 
 
 
-#
-# figbar = px.scatter(dfms.loc[columns], error_y="Std")
-# figbar.update_yaxes(range=[50, 180], row=1, col=1)
-#
-# st.plotly_chart(figbar, theme="streamlit", use_container_width=True)
-#
-

@@ -3,6 +3,7 @@
 Interactive visualization with the following options:
 
 -Sex (Male/Female)
+
 -Year (1985-2019)
 
 ## Data

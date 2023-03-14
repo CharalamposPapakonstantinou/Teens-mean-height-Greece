@@ -11,7 +11,7 @@ st.set_page_config(
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-df = pd.read_csv(r'/Users/charalamposp/Documents/YOLO_Margi/train_yolo_to_detect_custom_object/yolo_custom_detection/height_gr.csv')
+df = pd.read_csv(r'height_gr.csv')
 df2=df.groupby(['Age group','Sex','Year']).mean()
 
 df3=df2['Mean height'].reset_index()
